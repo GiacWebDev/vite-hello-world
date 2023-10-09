@@ -1,13 +1,23 @@
   <script>
-  export default {
-    name: 'App'
+
+    import AppTitle from './components/AppTitle.vue';
+  
+
+
+    export default {
+    name: 'App',
+
+    // aggiungo la proprietà components con i relativi componenti: 
+    components: {
+      AppTitle
+    }
   
   }
   </script>
 
 
 <template>
-  <h1>componente apptitle da inserire</h1>
+ <AppTitle />
   
 </template>
 
