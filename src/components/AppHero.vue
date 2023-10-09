@@ -8,9 +8,9 @@ export default {
 
 <template>
 
-  <div class="jumbotron">
-    <img src="/public/images.png" alt="image">
-    <img src="/public/images-1.png" alt="immage1">
+  <div class="jumbotron d-flex justify-content-around ">
+    <img src="/public/images.png" alt="image" class="debug">
+    <img src="/public/images-1.png" alt="immage1" class="debug">
   </div>
   
 </template>
